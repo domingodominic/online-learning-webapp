@@ -1,0 +1,75 @@
+@media (max-height: 600px) {
+  nav ul li a {
+    font-size: 10px !important;
+  }
+  header {
+    font-size: 12px !important;
+  }
+  .title {
+    font-size: 40px !important;
+  }
+
+  .column--one img {
+    width: 70% !important;
+  }
+
+  .dashboard--list li i {
+    font-size: 20px;
+  }
+  .dashboard--list li .number {
+    font-size: 12px;
+  }
+  .dashboard--list .title {
+    font-size: 10px !important;
+  }
+  .dashboard--list li {
+    padding: 5px 15px !important;
+  }
+  .dashboard--list {
+    margin-top: 40px;
+    gap: 20px !important;
+  }
+  .contact-us-btn {
+    background-color: #17ab00 !important;
+    color: white !important;
+    padding: 10px 70px !important;
+  }
+
+  .courses {
+    padding: 20px !important;
+  }
+  .courses .headings {
+    font-size: 30px !important;
+  }
+  .swiper-slide .slide h3 {
+    font-size: 13px !important;
+  }
+  .swiper-slide .slide p {
+    font-size: 10px !important;
+  }
+  .swiper-slide .slide .enroll-btn {
+    font-size: 12px !important;
+  }
+  .headings {
+    font-size: 30px !important;
+  }
+  .review-slide {
+    background-image: linear-gradient(
+      to bottom,
+      #17ab00,
+      40%,
+      transparent 40%
+    ) !important;
+  }
+  .review-wrapper .review-slide .slide img {
+    height: 150px !important;
+  }
+  .contact input {
+    padding: 10px 20px;
+    min-width: 300px !important;
+  }
+  form textarea {
+    width: 35ch !important;
+    height: 15ch;
+  }
+}
