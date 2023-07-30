@@ -1,0 +1,32 @@
+.about-us {
+  background-color: rgb(213, 213, 213);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+
+  .aboutus-image {
+    justify-self: center;
+  }
+  .content {
+    justify-self: center;
+    text-align: center;
+    line-height: 2rem;
+    h4 {
+      font-size: 40px;
+      font-weight: bold;
+    }
+    button {
+      border: none;
+      background-color: #17ab00;
+      padding: 10px 30px;
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+header {
+  position: relative;
+  padding: 20px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  .website--name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .span {
+    color: #17ab00;
+  }
+  nav {
+    ul {
+      display: flex;
+      li {
+        list-style: none;
+        margin-left: 50px;
+        a {
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .login-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #17ab00;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.home--page {
+  position: relative;
+  height: 100vh;
+}
+.column--one {
+  overflow: hidden;
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  display: grid;
+  grid-auto-rows: max-content;
+  grid-template-columns: 1fr 1fr;
+
+  .title--column {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    .title {
+      font-size: 100px;
+      font-weight: bold;
+    }
+    .contact-us-btn {
+      padding: 15px 150px;
+      background-color: transparent;
+      color: #17ab00;
+      font-weight: bold;
+      border: 1px solid #17ab00;
+    }
+  }
+  .title--column h1:nth-child(3) {
+    color: green;
+  }
+  .image {
+    justify-self: center;
+    align-self: center;
+  }
+}
+
+.dashboard--list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  gap: 30px;
+
+  li {
+    display: flex;
+    padding: 20px 80px;
+    background-color: rgb(213, 213, 213);
+    gap: 20px;
+    i {
+      font-size: 40px;
+      color: #17ab00;
+    }
+    .number {
+      font-size: 25px;
+    }
+  }
+}

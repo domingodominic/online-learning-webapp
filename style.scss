@@ -1,0 +1,14 @@
+@import "bootstrap/scss/bootstrap.scss";
+@import "home--page";
+@import "about-us";
+@import "courses";
+@import "reviews";
+@import "contact";
+@import "footer";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* style.scss */
